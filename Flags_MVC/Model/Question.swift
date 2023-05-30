@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Question {
+    let flagName: String
+    let options: [String]
+    let correctAnswer: Int
+}
