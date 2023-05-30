@@ -56,15 +56,39 @@
 		CA4B2B492A2697CC0068491C /* Flags_MVC */ = {
 			isa = PBXGroup;
 			children = (
-				CA4B2B4A2A2697CC0068491C /* AppDelegate.swift */,
-				CA4B2B4C2A2697CC0068491C /* SceneDelegate.swift */,
-				CA4B2B4E2A2697CC0068491C /* ViewController.swift */,
-				CA4B2B502A2697CC0068491C /* Main.storyboard */,
-				CA4B2B532A2697CE0068491C /* Assets.xcassets */,
-				CA4B2B552A2697CE0068491C /* LaunchScreen.storyboard */,
-				CA4B2B582A2697CE0068491C /* Info.plist */,
+				CA4B2B602A26984B0068491C /* InterfaceBuilder */,
+				CA4B2B5F2A2698290068491C /* ViewController */,
+				CA4B2B5E2A2697E30068491C /* Service */,
 			);
 			path = Flags_MVC;
+			sourceTree = "<group>";
+		};
+		CA4B2B5E2A2697E30068491C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CA4B2B582A2697CE0068491C /* Info.plist */,
+				CA4B2B532A2697CE0068491C /* Assets.xcassets */,
+				CA4B2B4A2A2697CC0068491C /* AppDelegate.swift */,
+				CA4B2B4C2A2697CC0068491C /* SceneDelegate.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CA4B2B5F2A2698290068491C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA4B2B4E2A2697CC0068491C /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CA4B2B602A26984B0068491C /* InterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				CA4B2B502A2697CC0068491C /* Main.storyboard */,
+				CA4B2B552A2697CE0068491C /* LaunchScreen.storyboard */,
+			);
+			path = InterfaceBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
