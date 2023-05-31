@@ -10,5 +10,10 @@ import UIKit
 
 final class QuizViewController: UIViewController {
     @IBOutlet weak var flagImageView: UIImageView!
+    @IBOutlet weak var optionOneButton: UIButton!
+    @IBOutlet weak var optionTwoButton: UIButton!
+    @IBOutlet weak var optionThreeButton: UIButton!
+    
+    
     
 }
