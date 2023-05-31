@@ -19,8 +19,19 @@ final class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadQuestions()
         
         
+    }
+    
+    func loadQuestions() {
+        let question1 = Question(flagName: "flag1",
+                                 options: ["Option 1", "Option 2", "Option 3"],
+                                 correctAnswer: 0)
+                let question2 = Question(flagName: "flag2",
+                                         options: ["Option 1", "Option 2", "Option 3"],
+                                         correctAnswer: 1)
+                questions = [question1, question2]
     }
     
 }
