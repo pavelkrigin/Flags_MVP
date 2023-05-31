@@ -14,6 +14,13 @@ final class QuizViewController: UIViewController {
     @IBOutlet weak var optionTwoButton: UIButton!
     @IBOutlet weak var optionThreeButton: UIButton!
     
+    var questions: [Question] = []
+    var currentQuestionIndex = 0
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
     
 }
