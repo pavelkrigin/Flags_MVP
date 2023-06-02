@@ -24,6 +24,7 @@ final class QuizViewController: UIViewController {
         
     }
     
+    //MARK: functions
     func loadQuestions() {
         let question1 = Question(flagName: "flag1",
                                  options: ["Option 1", "Option 2", "Option 3"],
@@ -34,4 +35,11 @@ final class QuizViewController: UIViewController {
                 questions = [question1, question2]
     }
     
+    func showQuestion() {
+        let question = questions[currentQuestionIndex]
+        flagImageView.image = UIImage(named: question.flagName)
+        optionOneButton.setTitle(question.options[0], for: .normal)
+        optionTwoButton.setTitle(question.options[1], for: .normal)
+        optionThreeButton.setTitle(question.options[2], for: .normal)
+    }
 }

@@ -73,10 +73,10 @@
 		CA4B2B5E2A2697E30068491C /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				CA4B2B582A2697CE0068491C /* Info.plist */,
 				CA4B2B532A2697CE0068491C /* Assets.xcassets */,
 				CA4B2B4A2A2697CC0068491C /* AppDelegate.swift */,
 				CA4B2B4C2A2697CC0068491C /* SceneDelegate.swift */,
+				CA4B2B582A2697CE0068491C /* Info.plist */,
 			);
 			path = Service;
 			sourceTree = "<group>";
