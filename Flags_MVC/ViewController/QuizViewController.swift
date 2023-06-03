@@ -42,4 +42,16 @@ final class QuizViewController: UIViewController {
         optionTwoButton.setTitle(question.options[1], for: .normal)
         optionThreeButton.setTitle(question.options[2], for: .normal)
     }
+    
+    @IBAction func optionButtonTapped(_ sender: UIButton) {
+        let question = questions[currentQuestionIndex]
+        let selectedAnswer = sender.tag
+        
+        if selectedAnswer == question.correctAnswer {
+            sender.backgroundColor = UIColor.green
+        } else {
+            sender.backgroundColor = UIColor.red
+        }
+        
+    }
 }
