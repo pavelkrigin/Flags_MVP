@@ -53,5 +53,22 @@ final class QuizViewController: UIViewController {
             sender.backgroundColor = UIColor.red
         }
         
+        //MARK: - switch to next question
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.currentQuestionIndex += 1
+            if self.currentQuestionIndex < self.questions.count {
+                self.showQuestion()
+            } else {
+                self.showResultScreen()
+            }
+        }
     }
+    
+    func showResultScreen() {
+        let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
+        resultVC.modalPresentationStyle = .fullScreen
+        present(resultVC, animated: true, completion: nil)
+    }
+    
+    
 }
