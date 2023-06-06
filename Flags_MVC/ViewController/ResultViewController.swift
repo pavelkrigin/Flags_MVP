@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-class ResultViewController: UIViewController {
+final class ResultViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     
     var timer: Timer?
-    var timeRemaining = 300 // 5 минут (5 * 60)
+    var timeRemaining = 300 // 5 minutes (5 * 60)
     
     override func viewDidLoad() {
         super.viewDidLoad()
