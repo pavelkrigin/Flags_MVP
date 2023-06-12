@@ -5,13 +5,24 @@
 //  Created by Pavel Krigin on 30.05.2023.
 //
 
+import SnapKit
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        initialize()
+    }
+    
+    private func initialize() {
+        //MARK: configuring the UI
+        view.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 100/255, alpha: 1)
+        let imageOne = UIImage()
+        
     }
 
 
