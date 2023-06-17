@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA049D0A2A3DE18400FBBD19 /* FlagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA049D092A3DE18400FBBD19 /* FlagModel.swift */; };
+		CA049D0D2A3DE23300FBBD19 /* FlagsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA049D0C2A3DE23300FBBD19 /* FlagsStorage.swift */; };
 		CA4B2B4B2A2697CC0068491C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B2B4A2A2697CC0068491C /* AppDelegate.swift */; };
 		CA4B2B4D2A2697CC0068491C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B2B4C2A2697CC0068491C /* SceneDelegate.swift */; };
 		CA4B2B4F2A2697CC0068491C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B2B4E2A2697CC0068491C /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA049D092A3DE18400FBBD19 /* FlagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagModel.swift; sourceTree = "<group>"; };
+		CA049D0C2A3DE23300FBBD19 /* FlagsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsStorage.swift; sourceTree = "<group>"; };
 		CA4B2B472A2697CC0068491C /* Flags_MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags_MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4B2B4A2A2697CC0068491C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA4B2B4C2A2697CC0068491C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA049D0B2A3DE1FE00FBBD19 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				CA049D0C2A3DE23300FBBD19 /* FlagsStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		CA4B2B3E2A2697CC0068491C = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,7 @@
 		CA4B2B492A2697CC0068491C /* Flags_MVC */ = {
 			isa = PBXGroup;
 			children = (
+				CA049D0B2A3DE1FE00FBBD19 /* Storage */,
 				CA4B2B632A2698C50068491C /* Model */,
 				CA4B2B602A26984B0068491C /* InterfaceBuilder */,
 				CA4B2B5F2A2698290068491C /* ViewController */,
@@ -109,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				CA4B2B612A2698B20068491C /* Question.swift */,
+				CA049D092A3DE18400FBBD19 /* FlagModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +209,8 @@
 				CA4B2B622A2698B20068491C /* Question.swift in Sources */,
 				CA4B2B4B2A2697CC0068491C /* AppDelegate.swift in Sources */,
 				CA51D6BE2A30D88000EE3E1A /* LaunchScreenVC.swift in Sources */,
+				CA049D0A2A3DE18400FBBD19 /* FlagModel.swift in Sources */,
+				CA049D0D2A3DE23300FBBD19 /* FlagsStorage.swift in Sources */,
 				CA4B2B4D2A2697CC0068491C /* SceneDelegate.swift in Sources */,
 				CA4B2B672A26991D0068491C /* ResultViewController.swift in Sources */,
 			);
