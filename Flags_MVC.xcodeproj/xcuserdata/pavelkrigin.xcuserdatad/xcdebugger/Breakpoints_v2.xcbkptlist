@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "874997E2-74AA-4C63-A943-425080820DD1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "112B6A00-EF4F-49AB-B39E-E803A9DAD295"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flags_MVC/ViewController/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4004954C-A918-416B-8D11-F76E17DE1C7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flags_MVC/ViewController/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "QuizViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4004954C-A918-416B-8D11-F76E17DE1C7D - 9df1bd69fdcc592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flags_MVC.QuizViewController.optionButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Flags_MVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelkrigin/Downloads/IOS/iOsDev/Apps/Flags_MVC/Flags_MVC/ViewController/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4004954C-A918-416B-8D11-F76E17DE1C7D - 9df1bd69fdcc592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flags_MVC.QuizViewController.optionButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Flags_MVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelkrigin/Downloads/IOS/iOsDev/Apps/Flags_MVC/Flags_MVC/ViewController/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
