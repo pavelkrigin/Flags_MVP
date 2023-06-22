@@ -81,7 +81,7 @@
 				CA049D0B2A3DE1FE00FBBD19 /* Storage */,
 				CA4B2B632A2698C50068491C /* Model */,
 				CA4B2B602A26984B0068491C /* InterfaceBuilder */,
-				CA4B2B5F2A2698290068491C /* ViewController */,
+				CA4B2B5F2A2698290068491C /* ViewControllers */,
 				CA4B2B5E2A2697E30068491C /* Service */,
 			);
 			path = Flags_MVC;
@@ -98,7 +98,7 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		CA4B2B5F2A2698290068491C /* ViewController */ = {
+		CA4B2B5F2A2698290068491C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				CA51D6BD2A30D88000EE3E1A /* LaunchScreenVC.swift */,
@@ -106,7 +106,7 @@
 				CA4B2B642A2698F80068491C /* QuizViewController.swift */,
 				CA4B2B4E2A2697CC0068491C /* ViewController.swift */,
 			);
-			path = ViewController;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		CA4B2B602A26984B0068491C /* InterfaceBuilder */ = {
