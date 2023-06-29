@@ -20,6 +20,7 @@
 		CA4B2B672A26991D0068491C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B2B662A26991D0068491C /* ResultViewController.swift */; };
 		CA51D6BA2A30A90900EE3E1A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA51D6B92A30A90900EE3E1A /* SnapKit */; };
 		CA51D6BE2A30D88000EE3E1A /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51D6BD2A30D88000EE3E1A /* LaunchScreenVC.swift */; };
+		CADF13922A4D98C600F18A2F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF13912A4D98C600F18A2F /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		CA4B2B642A2698F80068491C /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		CA4B2B662A26991D0068491C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CA51D6BD2A30D88000EE3E1A /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		CADF13912A4D98C600F18A2F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		CA4B2B492A2697CC0068491C /* Flags_MVC */ = {
 			isa = PBXGroup;
 			children = (
+				CADF13902A4D98AF00F18A2F /* SwiftUI */,
 				CA049D0B2A3DE1FE00FBBD19 /* Storage */,
 				CA4B2B632A2698C50068491C /* Model */,
 				CA4B2B602A26984B0068491C /* InterfaceBuilder */,
@@ -125,6 +128,14 @@
 				CA049D092A3DE18400FBBD19 /* FlagModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CADF13902A4D98AF00F18A2F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CADF13912A4D98C600F18A2F /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				CA4B2B652A2698F80068491C /* QuizViewController.swift in Sources */,
 				CA4B2B622A2698B20068491C /* Question.swift in Sources */,
 				CA4B2B4B2A2697CC0068491C /* AppDelegate.swift in Sources */,
+				CADF13922A4D98C600F18A2F /* SwiftUIView.swift in Sources */,
 				CA51D6BE2A30D88000EE3E1A /* LaunchScreenVC.swift in Sources */,
 				CA049D0A2A3DE18400FBBD19 /* FlagModel.swift in Sources */,
 				CA049D0D2A3DE23300FBBD19 /* FlagsStorage.swift in Sources */,
