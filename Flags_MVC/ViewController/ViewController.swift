@@ -8,7 +8,7 @@
 import SnapKit
 import UIKit
 
-final class ViewController: UIViewController {
+class ViewController: UIViewController {
     
 
     
