@@ -107,7 +107,7 @@ final class FlagsStorage {
         FlagModel(image: UIImage(named: "Flag_of_Malawi.svg")!, name: "Malawi"),
         FlagModel(image: UIImage(named: "Flag_of_Malaysia.svg")!, name: "Malaysia"),
         FlagModel(image: UIImage(named: "Flag_of_Maldives.svg")!, name: "Maldives"),
-        FlagModel(image: UIImage(named: "Flag_of_Mali.svg")!, name: "Flag_of_Mali"),
+        FlagModel(image: UIImage(named: "Flag_of_Mali.svg")!, name: "Mali"),
         FlagModel(image: UIImage(named: "Flag_of_Malta.svg")!, name: "Malta"),
         FlagModel(image: UIImage(named: "Flag_of_Mauritania.svg")!, name: "Mauritania"),
         FlagModel(image: UIImage(named: "Flag_of_Mauritius.svg")!, name: "Mauritius"),
