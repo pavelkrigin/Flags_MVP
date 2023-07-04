@@ -117,13 +117,13 @@ final class FlagsStorage {
         FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
         FlagModel(image: UIImage(named: "Flag_of_Montenegro.svg")!, name: "Montenegro"),
         FlagModel(image: UIImage(named: "Flag_of_Morocco.svg")!, name: "Morocco"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
-        FlagModel(image: UIImage(named: "Flag_of_Mongolia.svg")!, name: "Mongolia"),
+        FlagModel(image: UIImage(named: "Flag_of_Mozambique.svg")!, name: "Mozambique"),
+        FlagModel(image: UIImage(named: "Flag_of_Myanmar.svg")!, name: "Myanmar"),
+        FlagModel(image: UIImage(named: "Flag_of_Namibia.svg")!, name: "Namibia"),
+        FlagModel(image: UIImage(named: "Flag_of_Nauru.svg")!, name: "Nauru"),
+        FlagModel(image: UIImage(named: "Flag_of_Nepal.svg")!, name: "Nepal"),
+        FlagModel(image: UIImage(named: "Flag_of_New_Zealand.svg")!, name: "New Zealand"),
+        FlagModel(image: UIImage(named: "Flag_of_Nicaragua.svg")!, name: "Nicaragua"),
       
         
     ]
